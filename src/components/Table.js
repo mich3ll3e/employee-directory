@@ -17,7 +17,7 @@ function Table(props) {
             console.log(employee);
             return (
               <tr>
-                <td><img src={employee.picture} alt="Profile" /></td>
+                <td><img src={employee.image} alt="Profile" /></td>
                 <td>{employee.name}</td>
                 <td>{employee.phone}</td>
                 <td>{employee.email}</td>
