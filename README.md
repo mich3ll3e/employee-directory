@@ -8,7 +8,7 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 ## Installation
 
 ## Screenshots
-![screenshot](public/screenshot.png)
+![screenshot](public/Screenshot.png)
 
 ## LICENSE
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
