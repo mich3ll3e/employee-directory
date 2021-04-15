@@ -13,7 +13,7 @@ class Page extends Component {
     async componentDidMount() {
         const employeesData = await API.getEmployees();
         console.log(employeesData);
-        this.setState(employeesData);
+        this.setState({ employees: employeesData });
         console.log(this.state);
     }
 
