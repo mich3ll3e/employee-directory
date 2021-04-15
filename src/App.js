@@ -1,19 +1,15 @@
 import React from "react";
-import Gallery from "./pages/Gallery";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import Page from "./components/Page";
 
 function App() {
-  return (
-    <div>
-      <Navbar />
-      <Wrapper>
-        <Gallery />
-      </Wrapper>
-      <Footer />
-    </div>
+  return(
+    <>
+    <Title />
+    <Page />
+    </>
   );
 }
+
 
 export default App;
